@@ -7,7 +7,7 @@ export const themes = {
     		    overflow:hidden;
     		    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
     		    margin: auto;
-                background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") 50% 40px no-repeat;
+    		    background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") 50% 40px no-repeat;
     		    background-repeat:no-repeat!important;
     		}
 
@@ -125,17 +125,17 @@ export const themes = {
     		}
 
 
-            #htc-weather #forecast {
-                width:440px; /* Use this fixed width for reliable centering */
-                height:100px;
-                list-style:none;
-                /* 💥 Set left/right margins to auto for centering 💥 */
-                margin:175px auto 0 auto; 
-                padding:0;
-                position: relative;
-                /* ... other styles ... */
-            }
-            
+    		#htc-weather #forecast {
+    		    width:440px; /* Use this fixed width for reliable centering */
+    		    height:100px;
+    		    list-style:none;
+    		    /* 💥 Set left/right margins to auto for centering 💥 */
+    		    margin:175px auto 0 auto; 
+    		    padding:0;
+    		    position: relative;
+    		    /* ... other styles ... */
+    		}
+
     		#htc-weather #forecast li:first-child {
     		    border-left: 0px solid;
     		}
