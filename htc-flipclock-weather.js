@@ -1,5 +1,12 @@
-import "./vendor/wired-card-v0.8.1.js";
-import "./vendor/wired-toggle-v0.8.0.js";
+// Check if <wired-card> is already defined before importing its library
+if (!customElements.get("wired-card")) {
+    import("./vendor/wired-card-v0.8.1.js");
+}
+
+// Check if <wired-toggle> is already defined before importing its library
+if (!customElements.get("wired-toggle")) {
+    import("./vendor/wired-toggle-v0.8.0.js");
+}
 import {
     LitElement,
     html,
