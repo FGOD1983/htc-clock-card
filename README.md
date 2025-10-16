@@ -1,5 +1,5 @@
 # HomeAssistant HTC Flipclock with Weather card
-[![](https://img.shields.io/github/release/ibBogdan/htc-hassio-weather-card.svg?style=flat-square)](https://github.com/ibBogdan/htc-hassio-weather-card/releases/latest)
+[![](https://img.shields.io/github/release/ibBogdan/htc-hassio-weather-card.svg?style=flat-square)](https://github.com/FGOD1983/htc-clock-card/releases/latest)
 
 HTC Flip clock with weather for [Home Assistant](https://github.com/home-assistant/home-assistant)
 
