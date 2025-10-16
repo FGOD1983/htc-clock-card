@@ -1,15 +1,13 @@
 export const themes = {
 	'default': {
 		css: `#htc-weather-card-container {
-    		    width:440px;
-    		    height:448px;
-    		    position:relative;
-    		    overflow:hidden;
-    		    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
-    		    margin: auto;
-    		    background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") 50% 40px no-repeat;
-    		    background-repeat:no-repeat!important;
-    		}
+    		    position: relative;                  /* ✅ anchor for absolute children */
+    		    width: 440px;
+    		    height: 448px;                       /* ✅ restore proper base height */
+    		    display: block;
+    		    overflow: hidden;
+    		    background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") center 40px no-repeat;
+            }
 
     		#htc-weather-card-container p {
     		    margin:0;
@@ -130,7 +128,7 @@ export const themes = {
     		    height:100px;
     		    list-style:none;
     		    /* 💥 Set left/right margins to auto for centering 💥 */
-    		    margin:175px auto 0 auto; 
+    		    margin:200px auto 0 auto; 
     		    padding:0;
     		    position: relative;
     		    /* ... other styles ... */
