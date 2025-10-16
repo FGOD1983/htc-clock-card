@@ -3,12 +3,12 @@ export const themes = {
 		css: `#htc-weather-card-container {
     		    width:440px;
     		    height:448px;
+    		    background-repeat:no-repeat!important;
     		    position:relative;
     		    overflow:hidden;
     		    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
     		    margin: auto;
-    		    background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") 50% 40px no-repeat;
-    		    background-repeat:no-repeat!important;
+                background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") 50% 40px no-repeat;
     		}
 
     		#htc-weather-card-container p {
@@ -77,6 +77,7 @@ export const themes = {
     		    z-index:110;
     		}
 
+
     		#htc-weather {
     		    width:100%;
     		    height:313px;
@@ -126,16 +127,13 @@ export const themes = {
 
 
     		#htc-weather #forecast {
-    		    width:440px; /* Use this fixed width for reliable centering */
+    		    width:440px;
     		    height:100px;
     		    list-style:none;
-    		    /* 💥 Set left/right margins to auto for centering 💥 */
-    		    margin:175px auto 0 auto; 
+    		    margin:175px 0 0 0px;
     		    padding:0;
     		    position: relative;
-    		    /* ... other styles ... */
     		}
-
     		#htc-weather #forecast li:first-child {
     		    border-left: 0px solid;
     		}
@@ -288,7 +286,6 @@ export const themes = {
     		    z-index:110;
     		}
 
-
     		#htc-weather {
     		    width:100%;
     		    height:313px;
@@ -336,17 +333,17 @@ export const themes = {
     		    margin-left:-3px;
     		}
 
-
     		#htc-weather #forecast {
     		    width:440px;
     		    height:100px;
     		    list-style:none;
-    		    margin:150px 0 0 0px;
+    		    margin:175px auto 0px auto;
     		    padding:0;
     		    position: relative;
     		    background-repeat: no-repeat;
     		    background-size:cover !important
     		}
+        
     		#htc-weather #forecast li:first-child {
     		    border-left: 0px solid;
     		}
