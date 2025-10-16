@@ -8,7 +8,7 @@ export const themes = {
     		    overflow:hidden;
     		    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
     		    margin: auto;
-                background: url("../local/custom_ui/htc-weather/themes/default/background.png") 50% 40px no-repeat;
+                background: url("../local/custom_ui/htc-clock-card/themes/default/background.png") 50% 40px no-repeat;
     		}
 
     		#htc-weather-card-container p {
