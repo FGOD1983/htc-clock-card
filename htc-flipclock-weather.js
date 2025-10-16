@@ -12,7 +12,7 @@ import { themes } from './themes.js?v1.0.2';
 var forecastFinished = false;
 var forecasts = {};
 const weatherDefaults = {
-    widgetPath: '/local/custom_ui/htc-weather/',
+    widgetPath: '/local/custom_ui/htc-clock-card/',
     lang: 'en',
     am_pm: false,
     svrOffset: 0,
