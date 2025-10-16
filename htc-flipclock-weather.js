@@ -342,12 +342,13 @@ class HtcWeather extends LitElement {
         root.appendChild(style);
     
         let container_size = this._config.renderForecast ? '470px' : '320px';
-        let scaleFactor = window.innerWidth <= 480 ? 0.9 : 0.9;
+        let scaleFactor = window.innerWidth <= 480 ? 0.9 : 0.8;
     
         const cardContainer = document.createElement('div');
         cardContainer.id = 'htc-weather-card-container';
         cardContainer.style = `
             height: calc(${container_size} * ${scaleFactor});
+            max-height: 360px;
             width: 480px;
             max-width: 100%;
             position: relative;
